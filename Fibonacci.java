@@ -18,7 +18,7 @@ public class Fibonacci {
         int fib = 0;
         int h1 = 0;
         int h2 = 1;
-        for(int i = 0; i<=n; i++){
+        for(int i = 0; i<n; i++){
             fib = h1+h2;
             h2 = h1;
             h1 = fib;
