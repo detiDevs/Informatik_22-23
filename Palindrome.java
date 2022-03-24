@@ -1,17 +1,27 @@
 public class Palindrome {
     
     public static boolean istEinPalindrom(String eingabeText){
-        boolean pass = false;
+        boolean outerPalindrome = false;
+        if(eingabeText.length() > 1){
         if(eingabeText.charAt(0)==eingabeText.charAt(eingabeText.length()-1))
         {
-            pass = true;
+            outerPalindrome = true;
         }
-        boolean innerPalindrom = Palindrome.istEinPalindrom(eingabeText.substring(1, eingabeText.length()-2));
-        if (pass && innerPalindrom){
-            return true;
+
+        boolean innerPalindrome = false;
+
+        String temp = "";
+
+        temp = eingabeText.substring(1, eingabeText.length()-1);
+        
+        
+        if(istEinPalindrom(temp)){
+            innerPalindrome = true;
         }
-        else{
-            return false;
-        }
+
+        return (outerPalindrome && innerPalindrome);
+    } else{
+        return true;
     }
-}
+ 
+}}
