@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Quadrat.quadIterativ(20));
+        System.out.println(Fakultaet.fakRekursiv(5));
     }
 }
