@@ -18,6 +18,6 @@ public class Fakultaet {
         for(int i=1; i<=n; i++){
             fak *= i;
         }
-        return n;
+        return fak;
     }
 }
