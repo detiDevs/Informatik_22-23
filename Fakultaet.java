@@ -1,8 +1,4 @@
 public class Fakultaet {
-    
-    public Fakultaet(){
-
-    }
 
     public static int fakRekursiv(int n){
         if(n<=1){

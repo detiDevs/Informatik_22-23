@@ -1,8 +1,4 @@
 public class Fibonacci {
-    
-     public Fibonacci(){
-
-     }
 
     public static long fibRekursiv(int n){
 
