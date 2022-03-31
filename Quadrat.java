@@ -1,5 +1,4 @@
 public class Quadrat{
-    public Quadrat(){}
     
     public static int quadRekursiv(int n){
 
