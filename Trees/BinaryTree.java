@@ -10,8 +10,4 @@ public class BinaryTree{
         this.left = left;
         this.right = right;
     }
-
-    public void besuche(){
-        
-    }
 }
