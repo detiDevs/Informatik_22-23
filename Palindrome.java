@@ -1,5 +1,9 @@
 public class Palindrome {
 
+    public static void main(String[] args){
+        System.out.println(istEinPalindrom("Frederik"));
+    }
+    
     public static boolean istEinPalindrom(String eingabeText) {
         boolean outerPalindrome = false;
         if (eingabeText.length() > 1) {
